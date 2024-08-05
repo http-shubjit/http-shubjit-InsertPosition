@@ -22,7 +22,6 @@ public class InsertPosition {
                 return i+1;
             if (nums[i] < target && nums[i + 1] > target)
                 return i + 1;
-
         }
         return 0;
 
